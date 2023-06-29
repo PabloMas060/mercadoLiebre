@@ -1,0 +1,48 @@
+.header {
+    background-color: #EAC926;
+    font-family: var(--tipografia);
+    font-size: 12px;
+
+}
+.header__logo {
+    padding: 25px;
+    width: 50%;
+}
+.header__searchBar{
+    padding-left: 18px;
+}
+.header__searchBar__input::placeholder {
+    color: var(--colorGrisOscuro);
+}
+.header__searchBar__button {
+    width: 8%;
+    padding: 0px;
+}
+.header__div-cuotas {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.header ul {
+    list-style: none;
+    padding: 0px;
+}
+.header a {
+    text-decoration: none;
+    color: #000;
+}
+.header__burger__div {
+    display: flex;
+    justify-content: center;
+}
+.header__burger {
+    background-color: var(--colorCeleste);
+    border-radius: 5px;
+    margin: 20px 0px;
+    padding: 10px;
+    border-style: none;
+    }
+    .header__burger a{
+        color: #FFFFFF;
+        font-size: 25px;
+        }
