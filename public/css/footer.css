@@ -1,8 +1,8 @@
-footer {
+.footer {
     font-size: 12px;
     font-family: var(--tipografia);
 }
-footer h3,p {
+.footer h3,p {
     margin: 0px;
 }
 .footer__icon {

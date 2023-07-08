@@ -1,15 +1,30 @@
 .header {
+    width: 100%;
     background-color: #EAC926;
-    font-family: var(--tipografia);
-    font-size: 12px;
-
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .header__logo {
-    padding: 25px;
-    width: 50%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
-.header__searchBar{
-    padding-left: 18px;
+.header__logo img {
+    width: 35%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.header__searchBar {
+    padding-left: 0;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.header__searchBar form {
+    margin: 0;
 }
 .header__searchBar__input::placeholder {
     color: var(--colorGrisOscuro);
@@ -22,6 +37,13 @@
     margin-top: 15px;
     display: flex;
     justify-content: center;
+}
+.header__navs {
+    margin: 0px;
+    display: none;
+}
+.header__navs nav {
+    margin: 25px 0px;
 }
 .header ul {
     list-style: none;
@@ -41,8 +63,78 @@
     margin: 20px 0px;
     padding: 10px;
     border-style: none;
+}
+.header__burger a {
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+/* TABLET */
+@media(min-width:361px) {
+    .header {
     }
-    .header__burger a{
-        color: #FFFFFF;
-        font-size: 25px;
-        }
+    .header__logo {
+    }
+    .header__logo img {
+    }
+    .header__searchBar {
+    }
+    .header__searchBar form {
+    }
+    .header__searchBar__input::placeholder {
+    }
+    .header__searchBar__button {
+    }
+    .header__div-cuotas {
+    }
+    .header__navs {
+        display: block;
+    }
+    .header__navs nav {
+    }
+    .header ul {
+    }
+    .header a {
+    }
+    .header__burger__div {
+        display: none;
+    }
+    .header__burger {
+    }
+    .header__burger a {
+    }
+}
+
+/* DESKTOP */
+@media(min-width:769px) {
+    .header {
+    }
+    .header__logo {
+    }
+    .header__logo img {
+    }
+    .header__searchBar {
+    }
+    .header__searchBar form {
+    }
+    .header__searchBar__input::placeholder {
+    }
+    .header__searchBar__button {
+    }
+    .header__div-cuotas {
+    }
+    .header__navs {
+    }
+    .header__navs nav {
+    }
+    .header ul {
+    }
+    .header a {
+    }
+    .header__burger__div {
+    }
+    .header__burger {
+    }
+    .header__burger a {
+    }
+}
