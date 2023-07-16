@@ -16,15 +16,19 @@
 
 <body class="body">
     <header class="header">
-        <div class="header__logo">
-            <img src="/img/logo-mercado-liebre.svg" alt="logo">
+        <div class="header__top">
+            <div class="header__logo">
+                <img src="/img/logo-mercado-liebre.svg" alt="logo">
+            </div>
+            <div class="header__searchBar">
+                <form action="">
+                    <input class="header__searchBar__input" type="text" placeholder="Buscar productos, marcas">
+                    <button class="header__searchBar__button" type="submit"><i class="fa-solid fa-magnifying-glass"
+                            style="color: #000000;"></i></button>
+                </form>
+            </div>
         </div>
-        <div class="header__searchBar">
-            <form action=""><input class="header__searchBar__input" type="text" placeholder="Buscar productos, marcas">
-            </form>
-            <button class="header__searchBar__button"><i class="fa-solid fa-magnifying-glass"
-                    style="color: #000000;"></i></button>
-        </div>
+
 
         <div class="header__div-cuotas">
             <i class="fa-solid fa-hand-holding-dollar" style="color: #000000;"></i>
@@ -61,129 +65,163 @@
 
         <section class="main__section__ultimaVisita">
             <h2>Basado en tu útilma visita</h2>
-            <article class="main__section__ultimaVisita__article">
+            <div class="main__section__container">
+                <article class="main__section__ultimaVisita__article">
 
-                <img class="main__section__ultimaVisita__article-card-image" src="/img/img-cafetera-moulinex.jpg"
-                    alt="cafetera">
-                <div class="main__section__ultimaVisita__article-cardBody">
-                    <div class="main__section__ultimaVisita__article-cardBody-icon"><i class="fa-solid fa-truck"></i>
-                    </div>
-                    <h3 class="main__section__ultimaVisita__article-cardBody-price">$6.770</h3>
-                    <h4 class="main__section__ultimaVisita__article-cardBody-discount">40% OFF</h4>
-                    <div>
-                        <h4 class="main__section__ultimaVisita__article-cardBody-description">Cafetera Moulinex</h4>
-                    </div>
-                </div>
+                    <img class="main__section__ultimaVisita__article-card-image" src="/img/img-cafetera-moulinex.jpg"
+                        alt="cafetera">
+                    <div class="main__section__ultimaVisita__article-cardBody">
+                        <div class="main__section__ultimaVisita__article-cardBody-icon"><i
+                                class="fa-solid fa-truck"></i>
+                        </div>
+                        <div class="main__section__ultimaVisita__article-cardBody-numbers">
+                            <h3 class="main__section__ultimaVisita__article-cardBody-price">$6.770</h3>
+                            <h4 class="main__section__ultimaVisita__article-cardBody-discount">40% OFF</h4>
+                        </div>
 
-            </article>
-            <article class="main__section__ultimaVisita__article">
-
-                <img class="main__section__ultimaVisita__article-card-image" src="/img/img-macbook-pro-2019.jpg"
-                    alt="cafetera">
-                <div class="main__section__ultimaVisita__article-cardBody">
-                    <div class="main__section__ultimaVisita__article-cardBody-icon"><i class="fa-solid fa-truck"></i>
+                        <div>
+                            <h4 class="main__section__ultimaVisita__article-cardBody-description">Cafetera Moulinex</h4>
+                        </div>
                     </div>
-                    <h3 class="main__section__ultimaVisita__article-cardBody-price">$230.000</h3>
-                    <h4 class="main__section__ultimaVisita__article-cardBody-discount">20% OFF</h4>
-                    <div>
-                        <h4 class="main__section__ultimaVisita__article-cardBody-description">MacBook Pro 2019</h4>
-                    </div>
-                </div>
 
-            </article>
-            <article class="main__section__ultimaVisita__article">
+                </article>
+                <article class="main__section__ultimaVisita__article">
 
-                <img class="main__section__ultimaVisita__article-card-image" src="/img/img-samsung-galaxy-s10.jpg"
-                    alt="cafetera">
-                <div class="main__section__ultimaVisita__article-cardBody">
-                    <div class="main__section__ultimaVisita__article-cardBody-icon"><i class="fa-solid fa-truck"></i>
+                    <img class="main__section__ultimaVisita__article-card-image" src="/img/img-macbook-pro-2019.jpg"
+                        alt="cafetera">
+                    <div class="main__section__ultimaVisita__article-cardBody">
+                        <div class="main__section__ultimaVisita__article-cardBody-icon"><i
+                                class="fa-solid fa-truck"></i>
+                        </div>
+                        <div class="main__section__ultimaVisita__article-cardBody-numbers">
+                        <h3 class="main__section__ultimaVisita__article-cardBody-price">$230.000</h3>
+                        <h4 class="main__section__ultimaVisita__article-cardBody-discount">20% OFF</h4>
                     </div>
-                    <h3 class="main__section__ultimaVisita__article-cardBody-price">$70.500</h3>
-                    <h4 class="main__section__ultimaVisita__article-cardBody-discount">10% OFF</h4>
-                    <div>
-                        <h4 class="main__section__ultimaVisita__article-cardBody-description">Samsung Galaxy S10</h4>
+                        <div>
+                            <h4 class="main__section__ultimaVisita__article-cardBody-description">MacBook Pro 2019</h4>
+                        </div>
                     </div>
-                </div>
 
-            </article>
-            <article class="main__section__ultimaVisita__article">
+                </article>
+                <article class="main__section__ultimaVisita__article">
 
-                <img class="main__section__ultimaVisita__article-card-image" src="/img/img-tv-samsung-smart.jpg"
-                    alt="cafetera">
-                <div class="main__section__ultimaVisita__article-cardBody">
-                    <div class="main__section__ultimaVisita__article-cardBody-icon"><i class="fa-solid fa-truck"></i>
+                    <img class="main__section__ultimaVisita__article-card-image" src="/img/img-samsung-galaxy-s10.jpg"
+                        alt="cafetera">
+                    <div class="main__section__ultimaVisita__article-cardBody">
+                        <div class="main__section__ultimaVisita__article-cardBody-icon"><i
+                                class="fa-solid fa-truck"></i>
+                        </div>
+                        <div class="main__section__ultimaVisita__article-cardBody-numbers">
+                        <h3 class="main__section__ultimaVisita__article-cardBody-price">$70.500</h3>
+                        <h4 class="main__section__ultimaVisita__article-cardBody-discount">10% OFF</h4>
                     </div>
-                    <h3 class="main__section__ultimaVisita__article-cardBody-price">$23.200</h3>
-                    <h4 class="main__section__ultimaVisita__article-cardBody-discount">5% OFF</h4>
-                    <div>
-                        <h4 class="main__section__ultimaVisita__article-cardBody-description">SmartTv Samsung 43"</h4>
+                        <div>
+                            <h4 class="main__section__ultimaVisita__article-cardBody-description">Samsung Galaxy S10
+                            </h4>
+                        </div>
                     </div>
-                </div>
 
-            </article>
+                </article>
+                <article class="main__section__ultimaVisita__article">
+
+                    <img class="main__section__ultimaVisita__article-card-image" src="/img/img-tv-samsung-smart.jpg"
+                        alt="cafetera">
+                    <div class="main__section__ultimaVisita__article-cardBody">
+                        <div class="main__section__ultimaVisita__article-cardBody-icon"><i
+                                class="fa-solid fa-truck"></i>
+                        </div>
+                        <div class="main__section__ultimaVisita__article-cardBody-numbers">
+                        <h3 class="main__section__ultimaVisita__article-cardBody-price">$23.200</h3>
+                        <h4 class="main__section__ultimaVisita__article-cardBody-discount">5% OFF</h4>
+                    </div>
+                        <div>
+                            <h4 class="main__section__ultimaVisita__article-cardBody-description">SmartTv Samsung 43"
+                            </h4>
+                        </div>
+                    </div>
+
+                </article>
+            </div>
+
         </section>
         <section class="main__section__ultimaVisita">
             <h2>Ofertas</h2>
-            <article class="main__section__ultimaVisita__article">
+            <div class="main__section__container">
+                <article class="main__section__ultimaVisita__article">
 
-                <img class="main__section__ultimaVisita__article-card-image" src="/img/img-cafetera-moulinex.jpg"
-                    alt="cafetera">
-                <div class="main__section__ultimaVisita__article-cardBody">
-                    <div class="main__section__ultimaVisita__article-cardBody-icon"><i class="fa-solid fa-truck"></i>
+                    <img class="main__section__ultimaVisita__article-card-image" src="/img/img-cafetera-moulinex.jpg"
+                        alt="cafetera">
+                    <div class="main__section__ultimaVisita__article-cardBody">
+                        <div class="main__section__ultimaVisita__article-cardBody-icon"><i
+                                class="fa-solid fa-truck"></i>
+                        </div>
+                           <div class="main__section__ultimaVisita__article-cardBody-numbers">
+                        <h3 class="main__section__ultimaVisita__article-cardBody-price">$6.770</h3>
+                        <h4 class="main__section__ultimaVisita__article-cardBody-discount">40% OFF</h4>
                     </div>
-                    <h3 class="main__section__ultimaVisita__article-cardBody-price">$6.770</h3>
-                    <h4 class="main__section__ultimaVisita__article-cardBody-discount">40% OFF</h4>
-                    <div>
-                        <h4 class="main__section__ultimaVisita__article-cardBody-description">Cafetera Moulinex</h4>
+                        <div>
+                            <h4 class="main__section__ultimaVisita__article-cardBody-description">Cafetera Moulinex</h4>
+                        </div>
                     </div>
-                </div>
 
-            </article>
-            <article class="main__section__ultimaVisita__article">
+                </article>
+                <article class="main__section__ultimaVisita__article">
 
-                <img class="main__section__ultimaVisita__article-card-image" src="/img/img-macbook-pro-2019.jpg"
-                    alt="cafetera">
-                <div class="main__section__ultimaVisita__article-cardBody">
-                    <div class="main__section__ultimaVisita__article-cardBody-icon"><i class="fa-solid fa-truck"></i>
+                    <img class="main__section__ultimaVisita__article-card-image" src="/img/img-macbook-pro-2019.jpg"
+                        alt="cafetera">
+                    <div class="main__section__ultimaVisita__article-cardBody">
+                        <div class="main__section__ultimaVisita__article-cardBody-icon"><i
+                                class="fa-solid fa-truck"></i>
+                        </div>
+                           <div class="main__section__ultimaVisita__article-cardBody-numbers">
+                        <h3 class="main__section__ultimaVisita__article-cardBody-price">$230.000</h3>
+                        <h4 class="main__section__ultimaVisita__article-cardBody-discount">20% OFF</h4>
                     </div>
-                    <h3 class="main__section__ultimaVisita__article-cardBody-price">$230.000</h3>
-                    <h4 class="main__section__ultimaVisita__article-cardBody-discount">20% OFF</h4>
-                    <div>
-                        <h4 class="main__section__ultimaVisita__article-cardBody-description">MacBook Pro 2019</h4>
+                        <div>
+                            <h4 class="main__section__ultimaVisita__article-cardBody-description">MacBook Pro 2019</h4>
+                        </div>
                     </div>
-                </div>
 
-            </article>
-            <article class="main__section__ultimaVisita__article">
+                </article>
+                <article class="main__section__ultimaVisita__article">
 
-                <img class="main__section__ultimaVisita__article-card-image" src="/img/img-samsung-galaxy-s10.jpg"
-                    alt="cafetera">
-                <div class="main__section__ultimaVisita__article-cardBody">
-                    <div class="main__section__ultimaVisita__article-cardBody-icon"><i class="fa-solid fa-truck"></i>
+                    <img class="main__section__ultimaVisita__article-card-image" src="/img/img-samsung-galaxy-s10.jpg"
+                        alt="cafetera">
+                    <div class="main__section__ultimaVisita__article-cardBody">
+                        <div class="main__section__ultimaVisita__article-cardBody-icon"><i
+                                class="fa-solid fa-truck"></i>
+                        </div>
+                           <div class="main__section__ultimaVisita__article-cardBody-numbers">
+                        <h3 class="main__section__ultimaVisita__article-cardBody-price">$70.500</h3>
+                        <h4 class="main__section__ultimaVisita__article-cardBody-discount">10% OFF</h4>
                     </div>
-                    <h3 class="main__section__ultimaVisita__article-cardBody-price">$70.500</h3>
-                    <h4 class="main__section__ultimaVisita__article-cardBody-discount">10% OFF</h4>
-                    <div>
-                        <h4 class="main__section__ultimaVisita__article-cardBody-description">Samsung Galaxy S10</h4>
+                        <div>
+                            <h4 class="main__section__ultimaVisita__article-cardBody-description">Samsung Galaxy S10
+                            </h4>
+                        </div>
                     </div>
-                </div>
 
-            </article>
-            <article class="main__section__ultimaVisita__article">
+                </article>
+                <article class="main__section__ultimaVisita__article">
 
-                <img class="main__section__ultimaVisita__article-card-image" src="/img/img-tv-samsung-smart.jpg"
-                    alt="cafetera">
-                <div class="main__section__ultimaVisita__article-cardBody">
-                    <div class="main__section__ultimaVisita__article-cardBody-icon"><i class="fa-solid fa-truck"></i>
+                    <img class="main__section__ultimaVisita__article-card-image" src="/img/img-tv-samsung-smart.jpg"
+                        alt="cafetera">
+                    <div class="main__section__ultimaVisita__article-cardBody">
+                        <div class="main__section__ultimaVisita__article-cardBody-icon"><i
+                                class="fa-solid fa-truck"></i>
+                        </div>
+                           <div class="main__section__ultimaVisita__article-cardBody-numbers">
+                        <h3 class="main__section__ultimaVisita__article-cardBody-price">$23.200</h3>
+                        <h4 class="main__section__ultimaVisita__article-cardBody-discount">5% OFF</h4>
                     </div>
-                    <h3 class="main__section__ultimaVisita__article-cardBody-price">$23.200</h3>
-                    <h4 class="main__section__ultimaVisita__article-cardBody-discount">5% OFF</h4>
-                    <div>
-                        <h4 class="main__section__ultimaVisita__article-cardBody-description">SmartTv Samsung 43"</h4>
+                        <div>
+                            <h4 class="main__section__ultimaVisita__article-cardBody-description">SmartTv Samsung 43"
+                            </h4>
+                        </div>
                     </div>
-                </div>
 
-            </article>
+                </article>
+            </div>
         </section>
     </main>
     <footer class="body__home__footer">

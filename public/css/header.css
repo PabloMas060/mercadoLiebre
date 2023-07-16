@@ -2,36 +2,55 @@
     width: 100%;
     background-color: #EAC926;
     display: flex;
-    flex-direction: column;
+   flex-direction: column; 
     flex-wrap: wrap;
+}
+.header__top{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 .header__logo {
     padding: 5px;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 50%;
 }
 .header__logo img {
-    width: 35%;
+    width: 100%;
     margin-top: 15px;
-    margin-left: 15px;
 }
 .header__searchBar {
     padding-left: 0;
-    width: 90%;
+    width: 50%;
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
+    position: relative;
+    align-items: center;
+
+    
 }
 .header__searchBar form {
     margin: 0;
+    width: 100%;
+}
+.header__searchBar__input{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.8rem;
 }
 .header__searchBar__input::placeholder {
     color: var(--colorGrisOscuro);
+    font-size: 12px;
+    text-align: center;
 }
 .header__searchBar__button {
-    width: 8%;
-    padding: 0px;
+position: absolute;
+right: 0;
+top: 10px;
+background: white;
+border: none;;
 }
 .header__div-cuotas {
     margin-top: 15px;
