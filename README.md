@@ -5,3 +5,4 @@
 ## [Etapa 3: Diseño Adaptativo.](https://github.com/PabloMas060/mercadoLiebre/tree/ML-3-dise%C3%B1oAdaptativo)
 ## [Etapa 4: Flexbox.](https://github.com/PabloMas060/mercadoLiebre/tree/ML-4-flexbox)
 ## [Etapa 5: Formularios.](https://github.com/PabloMas060/mercadoLiebre/tree/ML-5-forms)
+## [Etapa 6: Animaciones.](https://github.com/PabloMas060/mercadoLiebre/tree/ML-6-animations)
