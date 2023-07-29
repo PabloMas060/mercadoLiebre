@@ -123,9 +123,7 @@ display: flex;
     .header__searchBar__input::placeholder {
     }
     .header__searchBar__button {
-        position: relative;
         top: 0;
-        border: 1px solid black;
     }
     .header__div-cuotas {
         width: 30%;

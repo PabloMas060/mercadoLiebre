@@ -21,3 +21,20 @@
 .footer__span {
     margin: 25px 0px;
 }
+@media (min-width:769px) {
+    .body__home__footer{
+        display: flex;
+    }
+    .body__home__footer__section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer__span{
+        width: 100%;
+    }
+    .body__home__footer__section__article{
+        width: 30%;
+    }
+    
+}
