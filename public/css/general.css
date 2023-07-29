@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;}
+:root {
+    --colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde: #39b54a;
+    --tipografia: 'Roboto', 'sans-serif';
+
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: var(--colorGrisClaro);
+    font-family: var(--tipografia);
+    font-size: 12px;
+    font-weight: 300;
+}
